@@ -1,0 +1,1915 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19042 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/4.4.0/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ar"
+      - "ar"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ar.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ranlib.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-strip"
+      - "strip"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-strip.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ld"
+      - "ld"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ld.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-nm.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objdump"
+      - "objdump"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-objdump.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-objcopy.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-readelf.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-dlltool.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-dlltool.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-dlltool"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-dlltool.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-dlltool.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-dlltool"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-dlltool.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-dlltool.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-dlltool"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-dlltool.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-dlltool.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-dlltool"
+      - "C:/Program Files/qemu/arm-none-eabi-dlltool.com"
+      - "C:/Program Files/qemu/arm-none-eabi-dlltool.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-dlltool"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-dlltool.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-dlltool.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-dlltool"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-dlltool.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-dlltool.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-dlltool"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-dlltool.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-dlltool.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-dlltool"
+      - "E:/arm-none-eabi-dlltool.com"
+      - "E:/arm-none-eabi-dlltool.exe"
+      - "E:/arm-none-eabi-dlltool"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/dlltool.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/dlltool.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/dlltool"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/dlltool.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/dlltool.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/dlltool"
+      - "C:/Program Files/CMake/bin/dlltool.com"
+      - "C:/Program Files/CMake/bin/dlltool.exe"
+      - "C:/Program Files/CMake/bin/dlltool"
+      - "C:/ProgramData/chocolatey/bin/dlltool.com"
+      - "C:/ProgramData/chocolatey/bin/dlltool.exe"
+      - "C:/ProgramData/chocolatey/bin/dlltool"
+      - "C:/Program Files/qemu/dlltool.com"
+      - "C:/Program Files/qemu/dlltool.exe"
+      - "C:/Program Files/qemu/dlltool"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/dlltool.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/dlltool.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/dlltool"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/dlltool.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/dlltool.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/dlltool"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/dlltool.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/dlltool.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "E:/dlltool.com"
+      - "E:/dlltool.exe"
+      - "E:/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-addr2line.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-tapi.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-tapi.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-tapi"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-tapi.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-tapi.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-tapi"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-tapi.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-tapi.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-tapi"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-tapi.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-tapi.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-tapi"
+      - "C:/Program Files/qemu/arm-none-eabi-tapi.com"
+      - "C:/Program Files/qemu/arm-none-eabi-tapi.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-tapi"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-tapi.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-tapi.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-tapi"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-tapi.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-tapi.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-tapi"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-tapi.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-tapi.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-tapi"
+      - "E:/arm-none-eabi-tapi.com"
+      - "E:/arm-none-eabi-tapi.exe"
+      - "E:/arm-none-eabi-tapi"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/tapi.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/tapi.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/tapi"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/tapi.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/tapi.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/ProgramData/chocolatey/bin/tapi.com"
+      - "C:/ProgramData/chocolatey/bin/tapi.exe"
+      - "C:/ProgramData/chocolatey/bin/tapi"
+      - "C:/Program Files/qemu/tapi.com"
+      - "C:/Program Files/qemu/tapi.exe"
+      - "C:/Program Files/qemu/tapi"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/tapi.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/tapi.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/tapi"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/tapi.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/tapi.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/tapi"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "E:/tapi.com"
+      - "E:/tapi.exe"
+      - "E:/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-15.2"
+      - "arm-none-eabi-gcc-ar-15"
+      - "arm-none-eabi-gcc-ar15"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.2"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.2"
+      - "E:/arm-none-eabi-gcc-ar-15.2.com"
+      - "E:/arm-none-eabi-gcc-ar-15.2.exe"
+      - "E:/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15"
+      - "E:/arm-none-eabi-gcc-ar-15.com"
+      - "E:/arm-none-eabi-gcc-ar-15.exe"
+      - "E:/arm-none-eabi-gcc-ar-15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar15"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar15.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar15"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar15.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar15.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar15"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar15.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar15"
+      - "E:/arm-none-eabi-gcc-ar15.com"
+      - "E:/arm-none-eabi-gcc-ar15.exe"
+      - "E:/arm-none-eabi-gcc-ar15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-15.2"
+      - "arm-none-eabi-gcc-ranlib-15"
+      - "arm-none-eabi-gcc-ranlib15"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.2"
+      - "E:/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "E:/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "E:/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15"
+      - "E:/arm-none-eabi-gcc-ranlib-15.com"
+      - "E:/arm-none-eabi-gcc-ranlib-15.exe"
+      - "E:/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib15"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib15"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib15"
+      - "E:/arm-none-eabi-gcc-ranlib15.com"
+      - "E:/arm-none-eabi-gcc-ranlib15.exe"
+      - "E:/arm-none-eabi-gcc-ranlib15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "arm-none-eabi-c++"
+      - "arm-none-eabi-g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/c++.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/c++.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/c++"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-c++.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-c++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-c++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/4.4.0/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-15.2"
+      - "arm-none-eabi-gcc-ar-15"
+      - "arm-none-eabi-gcc-ar15"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.2"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.2"
+      - "E:/arm-none-eabi-gcc-ar-15.2.com"
+      - "E:/arm-none-eabi-gcc-ar-15.2.exe"
+      - "E:/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar-15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar-15"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar-15"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar-15"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-15"
+      - "E:/arm-none-eabi-gcc-ar-15.com"
+      - "E:/arm-none-eabi-gcc-ar-15.exe"
+      - "E:/arm-none-eabi-gcc-ar-15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ar15"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar15.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ar15"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar15.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar15.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ar15"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar15.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ar15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ar15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ar15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar15"
+      - "E:/arm-none-eabi-gcc-ar15.com"
+      - "E:/arm-none-eabi-gcc-ar15.exe"
+      - "E:/arm-none-eabi-gcc-ar15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-15.2"
+      - "arm-none-eabi-gcc-ranlib-15"
+      - "arm-none-eabi-gcc-ranlib15"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.2"
+      - "E:/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "E:/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "E:/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib-15"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-15"
+      - "E:/arm-none-eabi-gcc-ranlib-15.com"
+      - "E:/arm-none-eabi-gcc-ranlib-15.exe"
+      - "E:/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib15"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-gcc-ranlib15"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc-ranlib15"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-gcc-ranlib15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-gcc-ranlib15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-gcc-ranlib15"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib15"
+      - "E:/arm-none-eabi-gcc-ranlib15.com"
+      - "E:/arm-none-eabi-gcc-ranlib15.exe"
+      - "E:/arm-none-eabi-gcc-ranlib15"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.com"
+    found: "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/qemu/"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/robot_firmware/bin/"
+      - "C:/Program Files (x86)/robot_firmware/sbin/"
+      - "C:/Program Files (x86)/robot_firmware/"
+    searched_directories:
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-windres.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-windres.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/arm-none-eabi-windres"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-windres.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-windres.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-windres"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-windres.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-windres.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-windres"
+      - "C:/Program Files/qemu/arm-none-eabi-windres.com"
+      - "C:/Program Files/qemu/arm-none-eabi-windres.exe"
+      - "C:/Program Files/qemu/arm-none-eabi-windres"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-windres.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-windres.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-windres"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-windres.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-windres.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/arm-none-eabi-windres"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-windres.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-windres.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/arm-none-eabi-windres"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-windres.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-windres.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-windres"
+      - "E:/arm-none-eabi-windres.com"
+      - "E:/arm-none-eabi-windres.exe"
+      - "E:/arm-none-eabi-windres"
+      - "C:/Program Files/bin/arm-none-eabi-windres.com"
+      - "C:/Program Files/bin/arm-none-eabi-windres.exe"
+      - "C:/Program Files/bin/arm-none-eabi-windres"
+      - "C:/Program Files/sbin/arm-none-eabi-windres.com"
+      - "C:/Program Files/sbin/arm-none-eabi-windres.exe"
+      - "C:/Program Files/sbin/arm-none-eabi-windres"
+      - "C:/Program Files/arm-none-eabi-windres.com"
+      - "C:/Program Files/arm-none-eabi-windres.exe"
+      - "C:/Program Files/arm-none-eabi-windres"
+      - "C:/Program Files (x86)/bin/arm-none-eabi-windres.com"
+      - "C:/Program Files (x86)/bin/arm-none-eabi-windres.exe"
+      - "C:/Program Files (x86)/bin/arm-none-eabi-windres"
+      - "C:/Program Files (x86)/sbin/arm-none-eabi-windres.com"
+      - "C:/Program Files (x86)/sbin/arm-none-eabi-windres.exe"
+      - "C:/Program Files (x86)/sbin/arm-none-eabi-windres"
+      - "C:/Program Files (x86)/arm-none-eabi-windres.com"
+      - "C:/Program Files (x86)/arm-none-eabi-windres.exe"
+      - "C:/Program Files (x86)/arm-none-eabi-windres"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-windres.com"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-windres.exe"
+      - "C:/Program Files/CMake/bin/arm-none-eabi-windres"
+      - "C:/Program Files/CMake/sbin/arm-none-eabi-windres.com"
+      - "C:/Program Files/CMake/sbin/arm-none-eabi-windres.exe"
+      - "C:/Program Files/CMake/sbin/arm-none-eabi-windres"
+      - "C:/Program Files/CMake/arm-none-eabi-windres.com"
+      - "C:/Program Files/CMake/arm-none-eabi-windres.exe"
+      - "C:/Program Files/CMake/arm-none-eabi-windres"
+      - "C:/Program Files (x86)/robot_firmware/bin/arm-none-eabi-windres.com"
+      - "C:/Program Files (x86)/robot_firmware/bin/arm-none-eabi-windres.exe"
+      - "C:/Program Files (x86)/robot_firmware/bin/arm-none-eabi-windres"
+      - "C:/Program Files (x86)/robot_firmware/sbin/arm-none-eabi-windres.com"
+      - "C:/Program Files (x86)/robot_firmware/sbin/arm-none-eabi-windres.exe"
+      - "C:/Program Files (x86)/robot_firmware/sbin/arm-none-eabi-windres"
+      - "C:/Program Files (x86)/robot_firmware/arm-none-eabi-windres.com"
+      - "C:/Program Files (x86)/robot_firmware/arm-none-eabi-windres.exe"
+      - "C:/Program Files (x86)/robot_firmware/arm-none-eabi-windres"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/windres.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/windres.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/bin/windres"
+      - "C:/Program Files/CMake/bin/windres.com"
+      - "C:/Program Files/CMake/bin/windres.exe"
+      - "C:/Program Files/CMake/bin/windres"
+      - "C:/ProgramData/chocolatey/bin/windres.com"
+      - "C:/ProgramData/chocolatey/bin/windres.exe"
+      - "C:/ProgramData/chocolatey/bin/windres"
+      - "C:/Program Files/qemu/windres.com"
+      - "C:/Program Files/qemu/windres.exe"
+      - "C:/Program Files/qemu/windres"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/windres.com"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/windres.exe"
+      - "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/windres"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/windres.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/windres.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/Scripts/windres"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/windres.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/windres.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Programs/Python/Python310/windres"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/windres.com"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/windres.exe"
+      - "C:/Users/ThinkBOOK/AppData/Local/Microsoft/WindowsApps/windres"
+      - "E:/windres.com"
+      - "E:/windres.exe"
+      - "E:/windres"
+      - "C:/Program Files/bin/windres.com"
+      - "C:/Program Files/bin/windres.exe"
+      - "C:/Program Files/bin/windres"
+      - "C:/Program Files/sbin/windres.com"
+      - "C:/Program Files/sbin/windres.exe"
+      - "C:/Program Files/sbin/windres"
+      - "C:/Program Files/windres.com"
+      - "C:/Program Files/windres.exe"
+      - "C:/Program Files/windres"
+      - "C:/Program Files (x86)/bin/windres.com"
+      - "C:/Program Files (x86)/bin/windres.exe"
+      - "C:/Program Files (x86)/bin/windres"
+      - "C:/Program Files (x86)/sbin/windres.com"
+      - "C:/Program Files (x86)/sbin/windres.exe"
+      - "C:/Program Files (x86)/sbin/windres"
+      - "C:/Program Files (x86)/windres.com"
+      - "C:/Program Files (x86)/windres.exe"
+      - "C:/Program Files (x86)/windres"
+      - "C:/Program Files/CMake/bin/windres.com"
+      - "C:/Program Files/CMake/bin/windres.exe"
+      - "C:/Program Files/CMake/bin/windres"
+      - "C:/Program Files/CMake/sbin/windres.com"
+      - "C:/Program Files/CMake/sbin/windres.exe"
+      - "C:/Program Files/CMake/sbin/windres"
+      - "C:/Program Files/CMake/windres.com"
+      - "C:/Program Files/CMake/windres.exe"
+      - "C:/Program Files/CMake/windres"
+      - "C:/Program Files (x86)/robot_firmware/bin/windres.com"
+      - "C:/Program Files (x86)/robot_firmware/bin/windres.exe"
+      - "C:/Program Files (x86)/robot_firmware/bin/windres"
+      - "C:/Program Files (x86)/robot_firmware/sbin/windres.com"
+      - "C:/Program Files (x86)/robot_firmware/sbin/windres.exe"
+      - "C:/Program Files (x86)/robot_firmware/sbin/windres"
+      - "C:/Program Files (x86)/robot_firmware/windres.com"
+      - "C:/Program Files (x86)/robot_firmware/windres.exe"
+      - "C:/Program Files (x86)/robot_firmware/windres"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\arm-none-eabi\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Program Files (x86)\\Arm\\GNU Toolchain mingw-w64-i686-arm-none-eabi\\bin"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\ThinkBOOK\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/robot_firmware"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/robot_firmware"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-2vtesv"
+      binary: "C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-2vtesv"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-2vtesv'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile cmTC_84174/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_84174.dir/build.make CMakeFiles/cmTC_84174.dir/build
+        make[1]: Entering directory 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-2vtesv'
+        Building C object CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj
+        "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe"   -v -o CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_84174.dir/'
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -iprefix C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_84174.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\THINKB~1\\AppData\\Local\\Temp\\ccufQknw.s
+        GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
+        	compiled by GNU C version 13-win32, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"
+        ignoring nonexistent directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/15.2.1/../../../../include"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 06ab445c59ba8f89bbf09b9a069e4cf7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_84174.dir/'
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj C:\\Users\\THINKB~1\\AppData\\Local\\Temp\\ccufQknw.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
+        COMPILER_PATH=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_84174.a
+        "C:/Program Files/CMake/bin/cmake.exe" -P CMakeFiles/cmTC_84174.dir/cmake_clean_target.cmake
+        "C:/Program Files/CMake/bin/cmake.exe" -E cmake_link_script CMakeFiles/cmTC_84174.dir/link.txt --verbose=1
+        "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ar.exe" qc libcmTC_84174.a CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj
+        "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ranlib.exe" libcmTC_84174.a
+        make[1]: Leaving directory 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-2vtesv'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include]
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-2vtesv']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile cmTC_84174/fast]
+        ignore line: [C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_84174.dir/build.make CMakeFiles/cmTC_84174.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-2vtesv']
+        ignore line: [Building C object CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe"   -v -o CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_84174.dir/']
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -iprefix C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_84174.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\THINKB~1\\AppData\\Local\\Temp\\ccufQknw.s]
+        ignore line: [GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 13-win32  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/15.2.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 06ab445c59ba8f89bbf09b9a069e4cf7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_84174.dir/']
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj C:\\Users\\THINKB~1\\AppData\\Local\\Temp\\ccufQknw.s]
+        ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
+        ignore line: [COMPILER_PATH=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_84174.a]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -P CMakeFiles/cmTC_84174.dir/cmake_clean_target.cmake]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E cmake_link_script CMakeFiles/cmTC_84174.dir/link.txt --verbose=1]
+        ignore line: ["C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ar.exe" qc libcmTC_84174.a CMakeFiles/cmTC_84174.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ranlib.exe" libcmTC_84174.a]
+        ignore line: [make[1]: Leaving directory 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-2vtesv']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-h2klwy"
+      binary: "C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-h2klwy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-h2klwy'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile cmTC_2d9a1/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_2d9a1.dir/build.make CMakeFiles/cmTC_2d9a1.dir/build
+        make[1]: Entering directory 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-h2klwy'
+        Building CXX object CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-c++.exe"   -v -o CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-c++.exe
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2d9a1.dir/'
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus.exe -quiet -v -iprefix C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2d9a1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\THINKB~1\\AppData\\Local\\Temp\\ccDHHjnb.s
+        GNU C++17 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
+        	compiled by GNU C version 13-win32, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"
+        ignoring nonexistent directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/15.2.1/../../../../include"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: aac432cb28554e085afe9b46d5a4b17f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2d9a1.dir/'
+         C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\THINKB~1\\AppData\\Local\\Temp\\ccDHHjnb.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
+        COMPILER_PATH=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_2d9a1.a
+        "C:/Program Files/CMake/bin/cmake.exe" -P CMakeFiles/cmTC_2d9a1.dir/cmake_clean_target.cmake
+        "C:/Program Files/CMake/bin/cmake.exe" -E cmake_link_script CMakeFiles/cmTC_2d9a1.dir/link.txt --verbose=1
+        "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ar.exe" qc libcmTC_2d9a1.a CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ranlib.exe" libcmTC_2d9a1.a
+        make[1]: Leaving directory 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-h2klwy'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1]
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi]
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward]
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+          add: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/c++/15.2.1]
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi]
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/backward]
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include]
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        collapse include dir [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/c++/15.2.1;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include/c++/15.2.1/backward;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed;C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-h2klwy']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile cmTC_2d9a1/fast]
+        ignore line: [C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_2d9a1.dir/build.make CMakeFiles/cmTC_2d9a1.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-h2klwy']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-c++.exe"   -v -o CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-c++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2d9a1.dir/']
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus.exe -quiet -v -iprefix C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2d9a1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\THINKB~1\\AppData\\Local\\Temp\\ccDHHjnb.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 13-win32  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"]
+        ignore line: [ignoring nonexistent directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-15/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/15.2.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/arm-none-eabi]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include/c++/15.2.1/backward]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: aac432cb28554e085afe9b46d5a4b17f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2d9a1.dir/']
+        ignore line: [ C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\THINKB~1\\AppData\\Local\\Temp\\ccDHHjnb.s]
+        ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
+        ignore line: [COMPILER_PATH=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../libexec/gcc/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/]
+        ignore line: [C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_2d9a1.a]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -P CMakeFiles/cmTC_2d9a1.dir/cmake_clean_target.cmake]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E cmake_link_script CMakeFiles/cmTC_2d9a1.dir/link.txt --verbose=1]
+        ignore line: ["C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ar.exe" qc libcmTC_2d9a1.a CMakeFiles/cmTC_2d9a1.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-ranlib.exe" libcmTC_2d9a1.a]
+        ignore line: [make[1]: Leaving directory 'C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/CMakeScratch/TryCompile-h2klwy']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
