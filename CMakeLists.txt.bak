@@ -1,0 +1,97 @@
+﻿cmake_minimum_required(VERSION 3.10)
+
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+
+project(robot_firmware)
+
+# 设置可执行文件后缀为空（不添加 .exe）
+set(CMAKE_EXECUTABLE_SUFFIX "")
+
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_PROCESSOR arm)
+set(CMAKE_C_COMPILER arm-none-eabi-gcc)
+
+set(CMAKE_C_FLAGS
+    "-mcpu=cortex-m4 \
+     -mthumb \
+     -mfloat-abi=hard \
+     -mfpu=fpv4-sp-d16 \
+     -O0 \
+     -g \
+     -Wall \
+     -Wextra \
+     -std=c99 \
+     -ffunction-sections \
+     -fdata-sections"
+)
+
+set(CMAKE_EXE_LINKER_FLAGS
+    "-mcpu=cortex-m4 \
+     -mthumb \
+     -mfloat-abi=hard \
+     -mfpu=fpv4-sp-d16 \
+     -T ${CMAKE_SOURCE_DIR}/scripts/stm32f407.ld \
+     -Wl,--gc-sections \
+     -Wl,--print-memory-usage \
+     -Wl,-Map=${CMAKE_BINARY_DIR}/firmware.map \
+     -specs=rdimon.specs -lrdimon"
+)
+
+# 覆盖链接命令，清空默认库
+set(CMAKE_C_LINK_EXECUTABLE "<CMAKE_C_COMPILER> <FLAGS> <CMAKE_C_LINK_FLAGS> <LINK_FLAGS> <OBJECTS> -o <TARGET> <LINK_LIBRARIES>")
+set(CMAKE_CXX_LINK_EXECUTABLE "<CMAKE_CXX_COMPILER> <FLAGS> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> <OBJECTS> -o <TARGET> <LINK_LIBRARIES>")
+set(CMAKE_C_STANDARD_LIBRARIES "")
+set(CMAKE_CXX_STANDARD_LIBRARIES "")
+
+include_directories(
+    ${CMAKE_SOURCE_DIR}/inc
+    ${CMAKE_SOURCE_DIR}/freertos/include
+    ${CMAKE_SOURCE_DIR}/freertos/portable/GCC/ARM_CM4F
+)
+
+set(APP_SOURCES
+    src/main.c
+    src/startup.c
+    )
+
+set(FREERTOS_SOURCES
+    freertos/tasks.c
+    freertos/queue.c
+    freertos/list.c
+    freertos/timers.c
+    freertos/event_groups.c
+    freertos/portable/GCC/ARM_CM4F/port.c
+    freertos/portable/MemMang/heap_4.c
+)
+
+set(SOURCES ${APP_SOURCES} ${FREERTOS_SOURCES})
+
+add_executable(firmware.elf ${SOURCES})
+
+add_custom_command(TARGET firmware.elf POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O binary firmware.elf firmware.bin
+    COMMENT "Generating firmware.bin"
+)
+
+add_custom_command(TARGET firmware.elf POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O ihex firmware.elf firmware.hex
+    COMMENT "Generating firmware.hex"
+)
+
+add_custom_command(TARGET firmware.elf POST_BUILD
+    COMMAND ${CMAKE_OBJDUMP} -S firmware.elf > firmware.lst
+    COMMENT "Generating firmware.lst"
+)
+
+add_custom_command(TARGET firmware.elf POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E echo "=========================================="
+    COMMAND ${CMAKE_COMMAND} -E echo "✅ Build completed successfully!"
+    COMMAND ${CMAKE_COMMAND} -E echo "📁 Output files:"
+    COMMAND ${CMAKE_COMMAND} -E echo "   - firmware.elf  (ELF executable)"
+    COMMAND ${CMAKE_COMMAND} -E echo "   - firmware.bin  (Binary image)"
+    COMMAND ${CMAKE_COMMAND} -E echo "   - firmware.hex  (Intel HEX)"
+    COMMAND ${CMAKE_COMMAND} -E echo "   - firmware.lst  (Disassembly listing)"
+    COMMAND ${CMAKE_COMMAND} -E echo "   - firmware.map  (Memory map)"
+    COMMAND ${CMAKE_COMMAND} -E echo "=========================================="
+)
+
