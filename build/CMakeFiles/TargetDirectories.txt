@@ -1,0 +1,3 @@
+C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/firmware.elf.dir
+C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/edit_cache.dir
+C:/Users/ThinkBOOK/robot_firmware/build/CMakeFiles/rebuild_cache.dir
